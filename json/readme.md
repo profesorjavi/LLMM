@@ -1,12 +1,8 @@
-# json
-
 [Estructura](./estructura.md)
 
 [Esquemas](./esquemas.md)
 
 [Procesar información](./python.md)
-
-
 
 ## Prácticas
 
@@ -15,4 +11,3 @@
 [Valida los esquemas](./starwars/starwars.md)
 
 [Práctica como procesar información](./validacion/pesquemas.md)
-
