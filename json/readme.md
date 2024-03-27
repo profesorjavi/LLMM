@@ -1,8 +1,4 @@
-[Estructura](./estructura.md)
-
-[Esquemas](./esquemas.md)
-
-[Procesar información](./python.md)
+[Estructura](./estructura.md)  |   [Esquemas](./esquemas.md)    |    [Procesar información](./python.md)
 
 ## Prácticas
 
