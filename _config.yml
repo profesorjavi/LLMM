@@ -16,7 +16,7 @@
 title: Lenguajes de Marcas.
 description: > # this means to ignore newlines until "baseurl:"
   Material theme based on <a href="http://materializecss.com">Materialize.css</a> for jekyll sites
-baseurl: "/SR"
+baseurl: "/LLMM"
 url: "https://profesorjavi.github.io/LLMM/"
 permalink: /:day/:month/:year/:title
 repository: profesorjavi/LLMM
