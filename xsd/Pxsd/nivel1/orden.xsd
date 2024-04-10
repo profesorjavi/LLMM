@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="orden">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="tipo" type="xs:string"/>
+        <xs:element name="objetivo" type="xs:string"/>
+        <xs:element name="fuerzas">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="unidad" type="xs:string" maxOccurs="unbounded"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="coordenadas">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="latitud" type="xs:decimal"/>
+              <xs:element name="longitud" type="xs:decimal"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
