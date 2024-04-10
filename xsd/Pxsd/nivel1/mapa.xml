@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mapa xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:noNamespaceSchemaLocation="mapa.xsd">
+  <titulo>Mapa del Tesoro Perdido</titulo>
+  <coordenadas>
+    <latitud>-33.873651</latitud>
+    <longitud>151.206990</longitud>
+  </coordenadas>
+  <pistas>
+    <pista>Sigue la luz del faro.</pista>
+    <pista>Cruza el puente de piedra.</pista>
+    <pista>Escala la montaña más alta.</pista>
+    <pista>Cava bajo la palmera.</pista>
+  </pistas>
+  <tesoro>
+    <nombre>El Cofre de Oro Azteca</nombre>
+    <descripcion>Un cofre de oro macizo con joyas y monedas antiguas.</descripcion>
+  </tesoro>
+</mapa>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<orden xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:noNamespaceSchemaLocation="orden.xsd">
+  <tipo>ataque</tipo>
+  <objetivo>base rebelde Hoth</objetivo>
+  <fuerzas>
+    <unidad>batallón de AT-AT</unidad>
+    <unidad>escuadrón de TIE Fighters</unidad>
+  </fuerzas>
+  <coordenadas>
+    <latitud>-89.123456</latitud>
+    <longitud>179.678901</longitud>
+  </coordenadas>
+</orden>
