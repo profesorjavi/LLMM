@@ -5,5 +5,5 @@
 
 
 *[Nivel 1](./Pxsd/nivel1/nivel1.md)
-*[Nivel 2](./Pxsd/nivel1/nivel2.md)
-*[Nivel 3](./Pxsd/nivel1/nivel3.md)
+*[Nivel 2](./Pxsd/nivel2/nivel2.md)
+*[Nivel 3](./Pxsd/nivel3/nivel3.md)
