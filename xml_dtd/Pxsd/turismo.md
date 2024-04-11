@@ -1,5 +1,3 @@
-### Enunciado de Práctica: Creación de una DTD
-
 #### Contexto:
 Imagina que estás trabajando en un proyecto de desarrollo web para una empresa de turismo que desea mostrar información sobre diferentes destinos turísticos. La empresa necesita una forma estructurada de almacenar esta información para poder mostrarla en su sitio web de manera consistente.
 
@@ -20,9 +18,9 @@ Escribe una DTD (Document Type Definition) que defina la estructura XML para alm
 
 
 
-# Archivos XML para chequear la DTD
+#### Archivos XML para chequear la DTD
 
-1. **Ejemplo de un destino turístico con actividades y atracciones:**
+1. Ejemplo de un destino turístico con actividades y atracciones:
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
@@ -57,7 +55,7 @@ Escribe una DTD (Document Type Definition) que defina la estructura XML para alm
 </destinos>
 ```
 
-2. **Ejemplo de un destino turístico sin actividades ni atracciones:**
+1. Ejemplo de un destino turístico sin actividades ni atracciones:
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
@@ -71,7 +69,7 @@ Escribe una DTD (Document Type Definition) que defina la estructura XML para alm
 ```
 
 
-3. **Este ejemplo contiene tres destinos diferentes: Granada en España, Florencia en Italia y Niza en Francia. Granada tiene actividades pero no atracciones, Florencia no tiene ni actividades ni atracciones, y Niza tiene atracciones pero no actividades. Todos los destinos cumplen con la estructura definida en la DTD.**
+1. Este ejemplo contiene tres destinos diferentes: Granada en España, Florencia en Italia y Niza en Francia. Granada tiene actividades pero no atracciones, Florencia no tiene ni actividades ni atracciones, y Niza tiene atracciones pero no actividades. Todos los destinos cumplen con la estructura definida en la DTD.
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
