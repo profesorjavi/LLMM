@@ -32,29 +32,19 @@ Imaginemos que existe un “Club de los Extraterrestres” en el universo, y nue
 
 Escribe una DTD (Document Type Definition) que defina la estructura XML para almacenar la información de los destinos turísticos según las especificaciones dadas.
 
+---
+
+
+
 #### Contexto PARTE 2:
 
-Ahora nuestro extraterrestes también van a  tener una  `<mision>` que representará una misión secreta asignada a cada miembro del “Club de los Extraterrestres”
+Ahora nuestro extraterrestes también van a  tener una  `<mision>` .Rrepresentará una misión secreta la cual se le asigan como miembro del “Club de los Extraterrestres”
 
 #### Especificaciones:
 
-- Cada `<extraterrestre>` ahora tiene una `<mision>` asociado refrenciada en su atributo `target``.
+- Cada `<extraterrestre>` ahora tiene una `<mision>` .La información de la misión estará referenciada en el atributo `target``.
 - El elemento `<mision>` tiene un atributo `id` (de tipo `ID`) para identificar de manera única cada misión.
-- El atributo `objetivo` (de tipo `CDATA`) describe el objetivo de la misión.
-
-3. **Ejemplo de Documento XML Válido:**
-
-```xml
-<club_extraterrestres>
-    <extraterrestre id="e1001" nombre="Zog" planeta_origen="Xenón" amigos="e1002 e1003" habilidad="Teletransportación">
-        <mision id="m2001" objetivo="Infiltrarse en la Tierra y recolectar datos sobre la cultura humana" />
-    </extraterrestre>
-    <extraterrestre id="e1002" nombre="Luna" planeta_origen="Nebulosa Azul" amigos="e1001 e1004" habilidad="Invisibilidad">
-        <mision id="m2002" objetivo="Proteger la fuente de energía del agujero de gusano intergaláctico" />
-    </extraterrestre>
-    <!-- Resto de los extraterrestres y sus misiones aquí -->
-</club_extraterrestres>
-```
+- El atributo `objetivo` (de tipo `CDATA`) describe el objetivo de la misión en su elemento.
 
 ### Tarea 2:
 
@@ -62,9 +52,8 @@ Ahora nuestro extraterrestes también van a  tener una  `<mision>` que represent
 * Escribe un XML para probar su valición incluyendo extraterrestres con amigos y misiones. El siguiente extraterrestre debería de ser valida en tu documento xml
 
 ```xml
-<extraterrestre id="e1001" nombre="Zog" planeta_origen="Xenón" amigos="e1002 e1003" habilidad="Teletransportación">
-        <mision id="m2001" objetivo="Infiltrarse en la Tierra y recolectar datos sobre la cultura humana" />
-</extraterrestre>
+    <extraterrestre id="e1001" nombre="Zog" planeta_origen="Xenón" amigos="e1002 e1003" target="m2001" >
+    </extraterrestre>
 ```
 
 **Fuentes**
