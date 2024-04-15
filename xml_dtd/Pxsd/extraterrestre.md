@@ -34,14 +34,13 @@ Escribe una DTD (Document Type Definition) que defina la estructura XML para alm
 
 ---
 
-
-
 #### Contexto PARTE 2:
 
-Ahora nuestro extraterrestes también van a  tener una  `<mision>` .Rrepresentará una misión secreta la cual se le asigan como miembro del “Club de los Extraterrestres”
+Ahora nuestro extraterrestes también van a  tener una  `<mision>` .Representará una misión secreta la cual se le asigan como miembro del “Club de los Extraterrestres”
 
 #### Especificaciones:
 
+- Primero apareceran las misiones que pertenecen al club y seguidamente los extraterretres su misión existente asignada
 - Cada `<extraterrestre>` ahora tiene una `<mision>` .La información de la misión estará referenciada en el atributo `target``.
 - El elemento `<mision>` tiene un atributo `id` (de tipo `ID`) para identificar de manera única cada misión.
 - El atributo `objetivo` (de tipo `CDATA`) describe el objetivo de la misión en su elemento.
