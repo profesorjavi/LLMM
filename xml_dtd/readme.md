@@ -4,4 +4,4 @@
 
 [Turismo](./Pxsd/turismo.md)  [(sol)](./Pxsd/turismo.dtd)
 
-[extraterrestre](./Pxsd/extraterrestre.md)
+[Club de los extraterrestres](./Pxsd/extraterrestre.md)
