@@ -4,7 +4,6 @@
         id ID #REQUIRED
         nombre CDATA #REQUIRED
         planeta_origen CDATA #REQUIRED
-        habilidad CDATA #REQUIRED
         amigos IDREFS #IMPLIED
         target IDREFS #REQUIRED
 
