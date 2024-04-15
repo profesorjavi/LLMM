@@ -9,8 +9,6 @@ Imagina que estás trabajando en un proyecto de desarrollo web para una empresa 
 5. Los nombres, descripciones y ubicaciones pueden contener texto enriquecido.
 6. Cada destino turístico uno o más atributos, como el país, que es obligatorio, la región, idioma,moneda, clima.
 
-NOTA:
-Cada actividad y atracción tiene sus propios elementos para el nombre, la descripción.
 
 ### Tarea:
 Escribe una DTD (Document Type Definition) que defina la estructura XML para almacenar la información de los destinos turísticos según las especificaciones dadas.
