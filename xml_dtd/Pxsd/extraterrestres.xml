@@ -1,13 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE club_extraterrestres SYSTEM "./extraterrestre.dtd">
 <club_extraterrestres>
-    <mision id="m2001" objetivo="Infiltrarse en la Tierra y recolectar datos sobre la cultura humana" />
-    <mision id="m2002" objetivo="Proteger la fuente de energía del agujero de gusano intergaláctico" />
-    <extraterrestre id="e1001" nombre="Zog" planeta_origen="Xenón" amigos="e1002 e1003" target="m2001" >
-    </extraterrestre>
-    <extraterrestre id="e1002" nombre="Luna" planeta_origen="Nebulosa Azul" amigos="e1001 e1003" target="m2001" >
-    </extraterrestre>
-    <extraterrestre id="e1003" nombre="Glimp" planeta_origen="Andrómeda" amigos="e1001" target="m2001" >
-    </extraterrestre>
-    <!-- Resto de los extraterrestres y sus misiones aquí -->
+    <mision id="m2001" objetivo="Infiltrarse en la Tierra y recolectar datos sobre la cultura humana" /> 
+    <mision id="m2002" objetivo="Proteger la fuente de energía del agujero de gusano intergaláctico" /> 
+    <extraterrestre id="e1001" nombre="Zog" planeta_origen="Xenón" amigos="e1003 e1002" target="m2001" />
+    <extraterrestre id="e1002" nombre="Luna" planeta_origen="Nebulosa Azul" amigos="e1003" target="m2001" /> 
+    <extraterrestre id="e1003" nombre="Glimp" planeta_origen="Andrómeda" amigos="e1001" target="m2001" />
 </club_extraterrestres>
