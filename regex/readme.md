@@ -28,7 +28,7 @@ Lesson Notes
 
 ## Práctica ....
 
-Podemos testear el funcionamiento de una regex en https://regexr.com/
+Podemos testear el funcionamiento de una regex en https://regexr.com/ o en cualquier página web al respecto
 
 1. **Código Postal:** Valida códigos postales españoles en formato estándar de 5 dígitos. Ejemplos válidos son: "28001", "08012", "46001", etc.
 
