@@ -41,4 +41,7 @@ Podemos testear el funcionamiento de una regex en https://regexr.com/ o en cualq
     *Nombre de usuario:* Esta es la parte que identifica al usuario dentro del sistema de correo electrónico. Esta parte viene antes del símbolo "@" y puede contener letras (mayúsculas y minúsculas), dígitos y ciertos caracteres especiales como ".", "-", y "_". El nombre de usuario debe tener al menos un carácter. Por ejemplo, en la dirección de correo "usuario@example.com", "usuario" es el nombre de usuario.
 
     *Dominio:* Esta es la parte que identifica el servidor de correo electrónico al que está asociado el usuario. Esta parte viene después del símbolo "@" y para este ejercicio consta de dos partes ('parte1.parte2'): La parte2 del dominio consta de tres carácteres (como ".com", ".net", ".org", etc.).La parte1  contiene letras (mayúsculas y minúsculas), dígitos, y los caracteres especiales como "-" y, en algunos casos, "_". Por ejemplo, en la dirección de correo "usuario@example.com", "example.com" es el dominio.   
-   
+6. **Ruta de Windows** . Debe validar que una ruta absoluta de windows a un directorio o fichero sea válida.
+    *Los directorios y archivos* pueden contener caracteres alfanumericos
+	*La unidad* consta de una letra mayúscula o minúscula 
+Una expresión valida sería	c:\Mis Documentos\práctica 1\prueba.txt
