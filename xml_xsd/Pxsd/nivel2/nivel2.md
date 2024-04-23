@@ -1,13 +1,12 @@
 ## Ejercicios con Atributos en Esquemas XML Nivel 2
 
-**Ejercicio 1: Ruedas y coches**
+### Ejercicio 1: Ruedas y coches
 **Objetivo:**
 
 El taller mecánico "Ruedas y Coches" necesita asegurarse de que todos sus documentos XML estén correctamente estructurados y cumplan con un estándar predefinido. Tu tarea es crear un programa que valide los documentos XML proporcionados por el taller, garantizando que cumplan con las especificaciones requeridas.
 
-# Parte 1.
-
-Ejemplo de un XML realizado por el taller
+#### Especificaciones parte 1
+Ejemplo de partida de un XML realizado por el taller
 
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
@@ -31,7 +30,8 @@ Ejemplo de un XML realizado por el taller
 </taller>
 
 ```
-#### Especificaciones parte 1
+
+
 * La marca únicamente tendrá el atributo id
 * La matriz puede tener un atributo id o no
 * El coche esta formado por la marca y el color en ese orden
@@ -62,7 +62,7 @@ Modificamos/ampliamos el esquema para que cumpla:
 
 
 
-**Ejercicio 2: La Feria Medieval XML**
+### Ejercicio 2: La Feria Medieval XML
 
 En la feria medieval, hay un vendedor de armaduras que tiene un inventario de cascos, espadas y escudos. Para organizar su inventario, necesita un archivo XML que describa cada pieza de armadura con sus características. ¡Tu misión es crear un esquema XSD que le ayude a tener un inventario ordenado!
 
@@ -90,7 +90,7 @@ En la feria medieval, hay un vendedor de armaduras que tiene un inventario de ca
 
 ----------------
 
-## Ejercicio 3 de Restricción de Valores en XML
+### Ejercicio 3 de Restricción de Valores en XML
 
 **Objetivo:**
 
