@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+<xs:element name="taller">
+    <xs:complexType>
+        <xs:sequence>
+            <xs:element name="marca">
+                <xs:complexType>
+                    <xs:attribute name="id" type="xs:string" use="required"/>
+                </xs:complexType>
+            </xs:element>
+            
+            <xs:element name="matriz"  minOccurs="0">
+                <xs:complexType>
+                    <xs:simpleContent>
+                        <xs:extension base="xs:string">
+                            <xs:attribute name="id" type="xs:string" />
+                        </xs:extension>
+                    </xs:simpleContent>
+                </xs:complexType>
+            </xs:element>
+        
+            <xs:element name="coche" maxOccurs="unbounded">
+                <xs:complexType>
+                    <xs:all>
+                        <xs:element name="marca" type="xs:string"/>
+                        <xs:element name="color" type="xs:string" minOccurs="0"/>
+                    </xs:all> 
+                </xs:complexType>
+            </xs:element>
+            <xs:element name="mecanico" minOccurs="2" maxOccurs="unbounded">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element name="nombre" type="xs:string"/>
+                        <xs:element name="apellido" type="xs:string"/>
+                    </xs:sequence>
+                    <xs:attribute name="especialidad" type="xs:string" use="required"/>
+                </xs:complexType>
+            </xs:element>
+
+            <xs:element name="observaciones">
+                <xs:complexType mixed="true" >
+                    <xs:sequence>
+                        <xs:choice>
+                            <xs:element name="importancia" type="xs:boolean"/>
+                            <xs:element name="relevancia" type="xs:boolean"/>
+                        </xs:choice>
+                        <xs:element name="fecha" type="xs:date"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+
+        </xs:sequence>
+        </xs:complexType>
+</xs:element>
+</xs:schema>
+
+<!-- 1. No importa el orden de los elementos marca y colo de un coche
+     2. Añadimos el elemento revelancia junto con el de importancia en las observaciones, en el 
+     xml unicamente aparecerá uno de los dos.
+     3. El elemento coche puede repetirse 
+     4. No es necesario que si indique el color de un coche ni la matriz 
+     5. Como mínimo hay que indicar 2 mecanicos
+
+-->

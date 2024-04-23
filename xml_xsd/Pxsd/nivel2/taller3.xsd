@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+<xs:element name="taller">
+    <xs:complexType>
+        <xs:sequence>
+            <xs:element name="marca">
+                <xs:complexType>
+                    <xs:attribute name="id" type="xs:string" use="required"/>
+                </xs:complexType>
+            </xs:element>
+            
+            <xs:element name="matriz"  minOccurs="0">
+                <xs:complexType>
+                    <xs:simpleContent>
+                        <xs:extension base="xs:string">
+                            <xs:attribute name="id" type="xs:string" />
+                        </xs:extension>
+                    </xs:simpleContent>
+                </xs:complexType>
+            </xs:element>
+        
+            <xs:element name="coche" maxOccurs="unbounded">
+                <xs:complexType>
+                    <xs:all>
+                        <xs:element name="marca" type="xs:string"/>
+                        <xs:element name="color" type="xs:string" minOccurs="0"/>
+                    </xs:all> 
+                </xs:complexType>
+            </xs:element>
+            <xs:element name="mecanico" minOccurs="2" maxOccurs="unbounded">
+                <xs:complexType>
+                    <xs:group ref="nombrecompleto"/>   
+                    <xs:attribute name="especialidad" type="especialidades" use="required"/>
+                </xs:complexType>
+            </xs:element>
+
+            <xs:element name="observaciones">
+                <xs:complexType mixed="true" >
+                    <xs:sequence>
+                        <xs:choice>
+                            <xs:element name="importancia" type="xs:boolean"/>
+                            <xs:element name="relevancia" type="xs:boolean"/>
+                        </xs:choice>
+                        <xs:element name="fecha" type="xs:date"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+            <xs:element name="gerente" minOccurs="0">
+                <xs:complexType>
+                    <xs:group ref="nombrecompleto"/>   
+                </xs:complexType>
+            </xs:element>
+        </xs:sequence>
+        </xs:complexType>
+</xs:element>
+<xs:group name="nombrecompleto">
+    <xs:sequence>
+        <xs:element name="nombre" type="xs:string"/>
+        <xs:element name="apellido" type="xs:string"/>
+    </xs:sequence>
+</xs:group>
+<xs:simpleType name="especialidades">
+    <xs:restriction base="xs:string">
+        <xs:enumeration value="electrónica"/>
+        <xs:enumeration value="chapa y pintura"/>
+        <xs:enumeration value="motores"/>
+    </xs:restriction>
+</xs:simpleType>
+</xs:schema>
+
+<!--    1. Crear un grupo para nombre completo y añadirlo tanto a mecanico como 
+    a un nuevo elemento opcional llamado gerente
+        2. Crear un tipo de datos global para las especialidades de los mecanicos
+        que únicamente tome los valores de (electrónica, chapa y pintura, motores) 
+        que además sea requerido 
+-->
