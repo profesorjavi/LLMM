@@ -1,4 +1,4 @@
-## Ejercicios con Atributos en Esquemas XML Nivel 2
+## Ejercicios XML Nivel 2
 
 ### Ejercicio 1: Ruedas y coches
 **Objetivo:**
