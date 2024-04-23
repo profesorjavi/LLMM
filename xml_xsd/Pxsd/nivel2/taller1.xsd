@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+<xs:element name="taller">
+    <xs:complexType>
+        <xs:sequence>
+            <xs:element name="marca">
+                <xs:complexType>
+                    <xs:attribute name="id" type="xs:string" use="required"/>
+                </xs:complexType>
+            </xs:element>
+            
+            <xs:element name="matriz" >
+                <xs:complexType>
+                    <xs:simpleContent>
+                        <xs:extension base="xs:string">
+                            <xs:attribute name="id" type="xs:string" />
+                        </xs:extension>
+                    </xs:simpleContent>
+                </xs:complexType>
+            </xs:element>
+        
+            <xs:element name="coche">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element name="marca" type="xs:string"/>
+                        <xs:element name="color" type="xs:string"/>
+                    </xs:sequence> 
+                </xs:complexType>
+            </xs:element>
+            <xs:element name="mecanico">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element name="nombre" type="xs:string"/>
+                        <xs:element name="apellido" type="xs:string"/>
+                    </xs:sequence>
+                    <xs:attribute name="especialidad" type="xs:string" use="required"/>
+                </xs:complexType>
+            </xs:element>
+
+            <xs:element name="observaciones">
+                <xs:complexType mixed="true" >
+                    <xs:sequence>
+                        <xs:element name="importancia" type="xs:boolean"/>
+                        <xs:element name="fecha" type="xs:date"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+
+        </xs:sequence>
+        </xs:complexType>
+</xs:element>
+</xs:schema>
