@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script type="module">
+       const chuckNorrisURL = 'https://api.chucknorris.io/jokes/random';
+
+        const getChuckNorrisFact = async () => {
+            try {
+                const response = await fetch(chuckNorrisURL);
+                if (!response.ok) {
+                    throw new Error(`HTTP error! status: ${response.status}`);
+                }
+                const data = await response.json();
+                return data.value;
+            } catch (error) {
+                console.error('Error fetching Chuck Norris fact:', error);
+                return 'An error occurred. Please try again later.';
+            }
+        };
+
+        const getFactButton = document.getElementById('getFactButton');
+        const factParagraph = document.getElementById('demo');
+
+        getFactButton.addEventListener('click', async () => {
+            const fact = await getChuckNorrisFact();
+            factParagraph.textContent = fact;
+        });
+        
+    </script>
+</head>
+<body>
+    
+</body>
+    <h2> Petición al API de chuckNorris</h2>
+    <p>Información en pantalla</p>
+    <button id="getFactButton">Obtener Frase de Chuck Norris</button>
+    <p id="demo"></p>
+</html>

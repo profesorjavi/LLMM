@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script type="module">
+        const chuckNorrisURL = 'https://api.chucknorris.io/jokes/random';
+
+        fetch(chuckNorrisURL)
+        .then(response => response.json())
+        .then(data => {
+            const frase = data.value;
+            console.log(frase);
+            console.log(data)
+        })
+        .catch(error => console.error('Error:', error));
+    </script>
+</head>
+<body>
+    
+</body>
+    <h2> Petición al API de chuckNorris</h2>
+    <p>Información en consola</p>
+</html>
