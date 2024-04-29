@@ -1,5 +1,6 @@
 ## Ejercicios XML Nivel 2
 
+
 ### Ejercicio 1: La Feria Medieval XML
 
 En la feria medieval, hay un vendedor de armaduras que tiene un inventario de cascos, espadas y escudos. Para organizar su inventario, necesita un archivo XML que describa cada pieza de armadura con sus características. ¡Tu misión es crear un esquema XSD que le ayude a tener un inventario ordenado!
@@ -26,7 +27,7 @@ En la feria medieval, hay un vendedor de armaduras que tiene un inventario de ca
 1. Crea un esquema XSD que defina la estructura del archivo XML, incluyendo atributos para cada elemento.
 2. Valida el archivo XML contra el esquema XSD para asegurarte de que no haya errores.
 
-----------------
+---
 
 ### Ejercicio 2 de Restricción de Valores en XML
 
@@ -76,13 +77,14 @@ Crear un esquema XSD que restrinja los valores permitidos para elementos y atrib
 </tienda>
 ```
 
+### Ejercicio 3: Ruedas y coches
 
-### Ejercicio 1: Ruedas y coches
 **Objetivo:**
 
 El taller mecánico "Ruedas y Coches" necesita asegurarse de que todos sus documentos XML estén correctamente estructurados y cumplan con un estándar predefinido. Tu tarea es crear un programa que valide los documentos XML proporcionados por el taller, garantizando que cumplan con las especificaciones requeridas.
 
 #### Especificaciones parte 1
+
 Ejemplo de partida de un XML realizado por el taller
 
 ```xml
@@ -108,7 +110,6 @@ Ejemplo de partida de un XML realizado por el taller
 
 ```
 
-
 * La marca únicamente tendrá el atributo id
 * La matriz puede tener un atributo id o no
 * El coche esta formado por la marca y el color en ese orden
@@ -116,22 +117,20 @@ Ejemplo de partida de un XML realizado por el taller
 * Las observaciones estan formadas por su relevancia y la fecha además del texto propia de la observación
 
 #### Especificaciones parte 2
-Modificamos/ampliamos el esquema para que cumpla:
 
+Modificamos/ampliamos el esquema para que cumpla:
 
 * No importa el orden de los elementos marca y colo de un coche
 * Añadimos el elemento relevancia junto con el de importancia en las observaciones, en el xml únicamente aparecerá uno de los dos.
-* El elemento coche puede repetirse 
-* No es necesario que si indique el color de un coche ni la matriz 
+* El elemento coche puede repetirse
+* No es necesario que si indique el color de un coche ni la matriz
 * Como mínimo hay que indicar 2 mecanicos
 
 #### Especificaciones parte 3
+
 Modificamos/ampliamos el esquema para que cumpla:
 
 * Crear un grupo para nombre completo y añadirlo tanto a mecanico como a un nuevo elemento opcional llamado gerente
-* Crear un tipo de datos global para las especialidades de los mecanicos que únicamente tome los valores de (electrónica, chapa y pintura, motores) que además sea requerido 
-  
+* Crear un tipo de datos global para las especialidades de los mecanicos que únicamente tome los valores de (electrónica, chapa y pintura, motores) que además sea requerido
 
-
-----------------
-
+---
