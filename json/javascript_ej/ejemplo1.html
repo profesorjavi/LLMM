@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Crear un objeto desde un texto en JSON</h2>
+    <p id="demo"></p>
+   <script>
+        var txt='{\
+                "name": "Madame Uppercut",               \
+                "age": 39,                               \
+                "secretIdentity": "Jane Wilson",          \
+                "powers": [                               \
+                    "Million tonne punch",                  \
+                    "Damage resistance",                    \
+                    "Superhuman reflexes"                   \
+                ]                                         \
+                }\
+        '
+        var obj = JSON.parse(txt); //obtenemos un objeto Javascript
+        document.getElementById("demo").innerHTML = obj.name + ", " + obj.age + ", " + obj.secretIdentity + ", [" + obj.powers + "]"
+   </script> 
+
+
+</body>
+</html>
