@@ -3,7 +3,7 @@
 
 ### Ejercicio 1: La Feria Medieval XML
 
-En la feria medieval, hay un vendedor de armaduras que tiene un inventario de cascos, espadas y escudos. Para organizar su inventario, necesita un archivo XML que describa cada pieza de armadura con sus características. ¡Tu misión es crear un esquema XSD que le ayude a tener un inventario ordenado!
+En la feria medieval, hay un vendedor de armaduras que tiene un inventario de cascos, espadas y escudos (Observa que se indica en plural) Para organizar su inventario, necesita un archivo XML que describa cada pieza de armadura con sus características. ¡Tu misión es crear un esquema XSD que le ayude a tener un inventario ordenado!
 
 **El inventario XML:**
 
@@ -24,7 +24,7 @@ En la feria medieval, hay un vendedor de armaduras que tiene un inventario de ca
 
 **Tu misión:**
 
-1. Crea un esquema XSD que defina la estructura del archivo XML, incluyendo atributos para cada elemento.
+1. Crea un esquema XSD que defina la estructura del archivo XML, incluyendo atributos obligatoriamente para cada elemento.
 2. Valida el archivo XML contra el esquema XSD para asegurarte de que no haya errores.
 
 ---
@@ -132,5 +132,5 @@ Modificamos/ampliamos el esquema para que cumpla:
 
 * Crear un grupo para nombre completo y añadirlo tanto a mecanico como a un nuevo elemento opcional llamado gerente
 * Crear un tipo de datos global para las especialidades de los mecanicos que únicamente tome los valores de (electrónica, chapa y pintura, motores) que además sea requerido
-
+* Permite que en elemento coche ahora además de marca y color valide si incluye cualquier otro elemento.
 ---
