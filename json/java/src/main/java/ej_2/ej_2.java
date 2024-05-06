@@ -1,4 +1,5 @@
 package ej_2;
+
 import com.google.gson.Gson;
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -6,14 +7,15 @@ import java.io.InputStreamReader;
 import java.net.HttpURLConnection;
 import java.net.URL;
 
-public class Main {
-    public static void main(String[] args) {
+public class ej_2 {
+    public static void main() {
         String jokeJson = getChuckNorrisJoke();
         
         Gson gson = new Gson();
         ChuckNorrisJoke joke = gson.fromJson(jokeJson, ChuckNorrisJoke.class);
 
         System.out.println("Chuck Norris Joke:");
+
         System.out.println(joke.getValue());
     }
 
@@ -29,11 +31,14 @@ public class Main {
             while ((inputLine = in.readLine()) != null) {
                 jokeJson.append(inputLine);
             }
+
             in.close();
+
+            
+
         } catch (IOException e) {
             e.printStackTrace();
         }
         return jokeJson.toString();
     }
 }
-

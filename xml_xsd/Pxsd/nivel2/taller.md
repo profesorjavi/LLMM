@@ -48,3 +48,10 @@ Modificamos/ampliamos el esquema para que cumpla:
 
 * Crear un grupo para nombre completo y añadirlo tanto a mecanico como a un nuevo elemento opcional llamado gerente
 * Crear un tipo de datos global para las especialidades de los mecanicos que únicamente tome los valores de (electrónica, chapa y pintura, motores) que además sea requerido 
+* Permitir que en un coche se pueda añadir cualquier elemento (nota: es necesario estar dentro de una secuencia de elementos. Necesitamos tener en orden marca y color ) 
+
+
+###### Soluciones....
+* [parte1](./taller1.xsd)
+* [parte2](./taller2.xsd)
+* [parte3](./taller3.xsd)

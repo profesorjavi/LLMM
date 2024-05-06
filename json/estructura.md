@@ -16,8 +16,8 @@
 ```json
 {
   "nombre": "Instituto La Sénia",
-  "ubicacion": "La Sénia, Tarragona, España",
-  "fundacion": 1962,
+  "ubicacion": "La Sénia, Paiporta, España",
+  "fundacion": 1955,
   "tipo": "instituto de educación secundaria"
 }
 ```

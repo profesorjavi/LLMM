@@ -19,12 +19,13 @@
                 </xs:complexType>
             </xs:element>
         
-            <xs:element name="coche" maxOccurs="unbounded">
+            <xs:element name="coche" minOccurs="0" maxOccurs="unbounded">
                 <xs:complexType>
-                    <xs:all>
+                    <xs:sequence>
                         <xs:element name="marca" type="xs:string"/>
                         <xs:element name="color" type="xs:string" minOccurs="0"/>
-                    </xs:all> 
+                        <xs:any></xs:any>
+                    </xs:sequence> 
                 </xs:complexType>
             </xs:element>
             <xs:element name="mecanico" minOccurs="2" maxOccurs="unbounded">

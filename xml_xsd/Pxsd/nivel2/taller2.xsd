@@ -19,7 +19,7 @@
                 </xs:complexType>
             </xs:element>
         
-            <xs:element name="coche" maxOccurs="unbounded">
+            <xs:element name="coche" minOccurs="0" maxOccurs="unbounded">
                 <xs:complexType>
                     <xs:all>
                         <xs:element name="marca" type="xs:string"/>
