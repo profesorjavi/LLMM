@@ -1,6 +1,5 @@
 ## Ejercicios XML Nivel 2
 
-
 ### Ejercicio 1: La Feria Medieval XML
 
 En la feria medieval, hay un vendedor de armaduras que tiene un inventario de cascos, espadas y escudos (Observa que se indica en plural) Para organizar su inventario, necesita un archivo XML que describa cada pieza de armadura con sus características. ¡Tu misión es crear un esquema XSD que le ayude a tener un inventario ordenado!
@@ -132,5 +131,10 @@ Modificamos/ampliamos el esquema para que cumpla:
 
 * Crear un grupo para nombre completo y añadirlo tanto a mecanico como a un nuevo elemento opcional llamado gerente
 * Crear un tipo de datos global para las especialidades de los mecanicos que únicamente tome los valores de (electrónica, chapa y pintura, motores) que además sea requerido
-* Permite que en elemento coche ahora además de marca y color valide si incluye cualquier otro elemento.
----
+* Permitir que en un coche se pueda añadir cualquier elemento (nota: es necesario estar dentro de una secuencia de elementos. Necesitamos tener en orden marca y color ) 
+
+
+###### Soluciones....
+* [parte1](./taller1.xsd)
+* [parte2](./taller2.xsd)
+* [parte3](./taller3.xsd)
