@@ -1,0 +1,58 @@
+{
+    "conferencias": [
+      {
+        "titulo": "Introducción a la Inteligencia Artificial",
+        "fecha": "2024-07-15",
+        "ubicacion": "Centro de Convenciones XYZ",
+        "oradores": [
+          {
+            "nombre": "Ana García",
+            "afiliacion": "Universidad ABC",
+            "biografia": "Experta en aprendizaje automático"
+          },
+          {
+            "nombre": "Juan Martínez",
+            "afiliacion": "Instituto XYZ",
+            "biografia": "Investigador en redes neuronales"
+          }
+        ],
+        "asistentes": [
+          {
+            "nombre": "María López",
+            "afiliacion": "Empresa XYZ",
+            "email": "maria@example.com"
+          },
+          {
+            "nombre": "Pedro Ramírez",
+            "afiliacion": "Universidad DEF",
+            "email": "pedro@example.com"
+          }
+        ]
+      },
+      {
+        "titulo": "Desarrollo de Aplicaciones Web",
+        "fecha": "2024-08-20",
+        "ubicacion": "Hotel ABC",
+        "oradores": [
+          {
+            "nombre": "Elena Pérez",
+            "afiliacion": "Empresa XYZ",
+            "biografia": "Experta en desarrollo front-end"
+          }
+        ],
+        "asistentes": [
+          {
+            "nombre": "Luis Fernández",
+            "afiliacion": "Universidad GHI",
+            "email": "luis@example.com"
+          },
+          {
+            "nombre": "Ana Rodríguez",
+            "afiliacion": "Instituto JKL",
+            "email": "ana@example.com"
+          }
+        ]
+      }
+    ]
+  }
+  

@@ -1,0 +1,56 @@
+<conferencias>
+    <conferencia>
+      <titulo>Introducción a la Inteligencia Artificial</titulo>
+      <fecha>2024-07-15</fecha>
+      <ubicacion>Centro de Convenciones XYZ</ubicacion>
+      <oradores>
+        <orador>
+          <nombre>Ana García</nombre>
+          <afiliacion>Universidad ABC</afiliacion>
+          <biografia>Experta en aprendizaje automático</biografia>
+        </orador>
+        <orador>
+          <nombre>Juan Martínez</nombre>
+          <afiliacion>Instituto XYZ</afiliacion>
+          <biografia>Investigador en redes neuronales</biografia>
+        </orador>
+      </oradores>
+      <asistentes>
+        <asistente>
+          <nombre>María López</nombre>
+          <afiliacion>Empresa XYZ</afiliacion>
+          <email>maria@example.com</email>
+        </asistente>
+        <asistente>
+          <nombre>Pedro Ramírez</nombre>
+          <afiliacion>Universidad DEF</afiliacion>
+          <email>pedro@example.com</email>
+        </asistente>
+      </asistentes>
+    </conferencia>
+    <conferencia>
+      <titulo>Desarrollo de Aplicaciones Web</titulo>
+      <fecha>2024-08-20</fecha>
+      <ubicacion>Hotel ABC</ubicacion>
+      <oradores>
+        <orador>
+          <nombre>Elena Pérez</nombre>
+          <afiliacion>Empresa XYZ</afiliacion>
+          <biografia>Experta en desarrollo front-end</biografia>
+        </orador>
+      </oradores>
+      <asistentes>
+        <asistente>
+          <nombre>Luis Fernández</nombre>
+          <afiliacion>Universidad GHI</afiliacion>
+          <email>luis@example.com</email>
+        </asistente>
+        <asistente>
+          <nombre>Ana Rodríguez</nombre>
+          <afiliacion>Instituto JKL</afiliacion>
+          <email>ana@example.com</email>
+        </asistente>
+      </asistentes>
+    </conferencia>
+  </conferencias>
+  

@@ -1,9 +1,11 @@
 [Estructura](./estructura.md)  |   [Esquemas](./esquemas.md)    |    [Procesar información](./python.md)
 
 ## Prácticas
+[Modela información en JSON](modelado/modelo.md)
 
-[Iniciate en json](./chuck/chuck.md)
 
-[Valida los esquemas](./starwars/starwars.md)
+[Iniciate en json-python](./chuck/chuck.md)
 
-[Práctica como procesar información](./validacion/pesquemas.md)
+[Valida los esquemas-python](./starwars/starwars.md)
+
+[Práctica como procesar información-python](./validacion/pesquemas.md)
