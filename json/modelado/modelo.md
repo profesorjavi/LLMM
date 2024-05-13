@@ -15,17 +15,17 @@ Se te pide que diseñes una estructura de datos en formato JSON para almacenar t
   * 2024-07-15"
   * Centro de Convenciones XYZ
   * orador1
-    * Ana García
-    * Universidad ABC
-    * Experta en aprendizaje automático
+      * Ana García
+      * Universidad ABC
+      * Experta en aprendizaje automático
   * orador2
-    * Juan Martínez
-    * Instituto XYZ
-    * Investigador en redes neuronales
+      * Juan Martínez
+      * Instituto XYZ
+      * Investigador en redes neuronales
   * asistente1 
-    * María López
-    * Empresa XYZ
-    * maria@example.com
+      * María López
+      * Empresa XYZ
+      * maria@example.com
   * asistente2
      * Pedro Ramírez
      * Universidad DEF
