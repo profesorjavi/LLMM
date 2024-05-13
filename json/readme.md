@@ -4,7 +4,7 @@
 [Modela información en JSON](modelado/modelo.md)
   
 * Java
-[Iniciemonos con Java](java.md)
+[Iniciemonos con Java](chuck/java/tarea_desdecero.md)
 
 
 * Python
