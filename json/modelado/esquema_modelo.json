@@ -1,0 +1,44 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "type": "object",
+    "properties": {
+      "conferencias": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "titulo": {"type": "string"},
+            "fecha": {"type": "string", "format": "date"},
+            "ubicacion": {"type": "string"},
+            "oradores": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "nombre": {"type": "string"},
+                  "afiliacion": {"type": "string"},
+                  "biografia": {"type": "string"}
+                },
+                "required": ["nombre", "afiliacion", "biografia"]
+              }
+            },
+            "asistentes": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "nombre": {"type": "string"},
+                  "afiliacion": {"type": "string"},
+                  "email": {"type": "string", "format": "email"}
+                },
+                "required": ["nombre", "afiliacion", "email"]
+              }
+            }
+          },
+          "required": ["titulo", "fecha", "ubicacion", "oradores", "asistentes"]
+        }
+      }
+    },
+    "required": ["conferencias"]
+  }
+  

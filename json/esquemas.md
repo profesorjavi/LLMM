@@ -22,6 +22,13 @@ Los esquemas JSON se definen utilizando la sintaxis JSON. Un esquema JSON se com
 * **`required`:** Define una lista de propiedades que son obligatorias para un objeto.
 * **`enum`:** Define una lista de valores válidos que se pueden usar para una propiedad.
 
+
+**Toda la documentación la encontramos en:**
+
+  [https://json-schema.org/learn/getting-started-step-by-step](https://json-schema.org/learn/getting-started-step-by-step)
+
+
+
 **Ejemplo:**
 
 ```json

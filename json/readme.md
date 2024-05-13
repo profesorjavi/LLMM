@@ -2,7 +2,12 @@
 
 ## Prácticas
 [Modela información en JSON](modelado/modelo.md)
+  
+* Java
+[Iniciemonos con Java](java.md)
 
+
+* Python
 
 [Iniciate en json-python](./chuck/chuck.md)
 
