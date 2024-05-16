@@ -31,19 +31,19 @@ Para Práticar
 https://www.deviantart.com/jigaraphale/art/Chuck-Norris-Seal-Of-Approval-776993923
 
 
-> ## Empieza investigando como fuciona la API de Chuck
->
-> * **API de Chuck Norris:** [https://api.chucknorris.io/](https://api.chucknorris.io/)
+#### Empieza investigando como fuciona la API de Chuck
+
+ **API de Chuck Norris:** [https://api.chucknorris.io/](https://api.chucknorris.io/)
 
 A partir de una petición dede java a esta API obtendrás un JSON. Tendrás que preparar una clase en java para almacenar los objetos a partir de des deserialización. Para llevar a cabo este proceso utilizaremos la libreria de google gson. https://javadoc.io/doc/com.google.code.gson/gson/latest/com.google.gson/module-summary.html
 
 
-## Ampliación 
+#### Ampliación 
 
-Antes de procesar el json lo validaremos con un esquema
-https://json-schema.org/
-  
-En este enlace tienes un ejemplo sencillo de como hacerlo. 
-https://json-schema.org/learn/getting-started-step-by-step
+* Antes de procesar el json lo validaremos con un esquema
+[https://json-schema.org/](https://json-schema.org/)
+* En este enlace tienes un ejemplo sencillo de como hacerlo. 
+[https://json-schema.org/learn/getting-started-step-by-step](https://json-schema.org/learn/getting-started-step-by-step)
 
-
+* API de java para validar esquemas 
+* [https://javadoc.io/doc/org.everit.json/org.everit.json.schema/latest/index.html](https://javadoc.io/doc/org.everit.json/org.everit.json.schema/latest/index.html)

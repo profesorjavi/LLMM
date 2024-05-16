@@ -7,6 +7,7 @@ import java.io.InputStreamReader;
 import java.net.HttpURLConnection;
 import java.net.URL;
 
+
 public class ej_3 {
 
 
@@ -18,10 +19,15 @@ public class ej_3 {
 
         System.out.println("Chuck Norris Joke traducido:");
 
-        System.out.println(getChuckNorrisJoke_traducido(joke.getValue(), "", ""));
+       // System.out.println(getChuckNorrisJoke_traducido(joke.getValue(), "", ""));
     }
 
     private static String getChuckNorrisJoke() {
+        
+        System.out.println("borrar");
+        return "borrar";
+    }
+ /*   private static String getChuckNorrisJoke() {
         StringBuilder jokeJson = new StringBuilder();
         try {
             URL url = new URL("https://api.chucknorris.io/jokes/random");
@@ -43,7 +49,7 @@ public class ej_3 {
         }
         return jokeJson.toString();
     }
-
+*/
 
     private static String getChuckNorrisJoke_traducido(String encodedText, String sourceLang, String targetLang  ) {
        

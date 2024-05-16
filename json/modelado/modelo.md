@@ -12,7 +12,7 @@ Se te pide que diseñes una estructura de datos en formato JSON para almacenar t
 #### Utiliza estos datos para modelar en json la inormación.
 
 1. Introducción a la Inteligencia Artificial
-  * 2024-07-15"
+  * 2024-07-15
   * Centro de Convenciones XYZ
   * orador1
       * Ana García
